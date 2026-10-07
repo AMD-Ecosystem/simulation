@@ -29,7 +29,13 @@ all_article_info_author = ""
 html_theme = "rocm_docs_theme"
 html_theme_options = {
     "flavor": "rocm-simulation",
-    # Add any additional theme options here
+    "repository_url": "https://github.com/AMD-Ecosystem/simulation",
+    "repository_branch": "docs/25.10",
+    "path_to_docs": "docs",
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_source_button": True,
+    "use_download_button": True,
 }
 
 html_static_path = ["sphinx/static/css"]
