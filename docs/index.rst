@@ -1,18 +1,18 @@
 .. meta::
-  :description: Learn about the features and capabilities of ROCm-Simulation
+  :description: Learn about the features and capabilities of AMD Simulation
   :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
 
 .. rocmds-index:
 
 ********************************************************************
-AMD ROCm Simulation documentation
+AMD Simulation documentation
 ********************************************************************
 
-ROCm™ Simulation toolkit (ROCm-Simulation) is an open-source software toolkit built on the ROCm platform,
+AMD Simulation is an open-source software toolkit built on the ROCm™ platform,
 enabling high-performance physical simulations and advanced computational graphics
 on AMD GPUs. This toolkit enables workloads such as scientific computing, computer
 graphics, robotics, and AI-driven simulation to run on AMD Instinct™ GPUs and benefit
-from the optimizations available on those GPUs. ROCm-Simulation builds on the core
+from the optimizations available on those GPUs. AMD Simulation builds on the core
 ROCm libraries to combine frameworks and specialized libraries that accelerate
 physics-based and numerical simulations.
 
@@ -26,14 +26,14 @@ performance from optimized kernels, flexibility from integration with Python and
 machine learning frameworks, and scalability with multi-GPU clusters and high-
 performance computing (HPC) support.
 
-ROCm-Simulation provides a cohesive set of libraries and frameworks that support
+AMD Simulation provides a cohesive set of libraries and frameworks that support
 the simulation workflow, from physics kernels and numerical solvers to
 rendering and multi-GPU scaling. Each component is optimized for GPU performance 
 on AMD Instinct GPUs while offering Python-friendly APIs and integrations with
 popular tools such as PyTorch, so that you can plug simulation workloads into existing 
 research and production pipelines with minimal friction.
 
-The ROCm-Simulation domain includes the following components:
+The Simulation Domain includes the following components:
 
 * Taichi Lang is an open-source, imperative, and parallel programming language
   embedded in Python, designed for high-performance numerical computation

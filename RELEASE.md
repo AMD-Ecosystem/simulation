@@ -10,13 +10,13 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-Simulation 25.11 Release notes
+# AMD Simulation 25.11 Release notes
 
-This is the second release of the AMD ROCm Simulation Domain toolkit (ROCm-Simulation), a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. 
+This is the second release of the AMD Simulation toolkit, a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. 
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
-- [ROCm-Simulation components](#rocm-simulation-components)
+- [AMD Simulation components](#amd-simulation-components)
 
 ## Release highlights
 
@@ -28,12 +28,12 @@ This release introduces support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/
 ## System requirements
 
 ```{note}
-For the 25.11 release, the ROCm-Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.11/install/install.html) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.11/about/compatibility-matrix.html). 
+For the 25.11 release, the AMD Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.11/install/install.html) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.11/about/compatibility-matrix.html). 
 ```
 
-## ROCm-Simulation components
+## AMD Simulation components
 
-The following table lists ROCm-Simulation components versions for ROCm-Simulation 25.11, including any version changes for the components. 
+The following table lists AMD Simulation components versions for AMD Simulation 25.11, including any version changes for the components. 
 Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -53,12 +53,12 @@ Click {fab}`github` to go to the component's source code on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/">Taichi Lang</a></td>
                 <td>1.8.0b1&nbsp;&Rightarrow;&nbsp;<a href="#taichi-lang-1-8-0b2">1.8.0b2</a></td>
-                <td><a href="https://github.com/ROCm/taichi/tree/release/1.8.0b2"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/taichi/tree/release/1.8.0b2"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/">GSplat</a></td>
                 <td>1.5.3b1&nbsp;&Rightarrow;&nbsp;<a href="#gsplat-1-5-3b2">1.5.3b2</a></td>
-                <td><a href="https://github.com/ROCm/gsplat/tree/release/1.5.3b2"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/gsplat/tree/release/1.5.3b2"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>

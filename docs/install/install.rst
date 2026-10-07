@@ -1,11 +1,11 @@
 .. meta::
-    :description: ROCm-Simulation installation
+    :description: AMD Simulation installation
     :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
 
 .. _linux-install:
 
 **************************************************************************************
-Install ROCm-Simulation
+Install AMD Simulation
 **************************************************************************************
 
 This topic provides brief guidance and recommendations on setting up a ROCm-enabled 
@@ -15,7 +15,7 @@ ROCm Docker image for supported Ubuntu versions and installing components.
 System requirements
 ======================================================================================
 
-The ROCm-Simulation components are both supported on AMD Instinct™ MI325X and MI300X GPUs.
+The AMD Simulation components are both supported on AMD Instinct™ MI325X and MI300X GPUs.
 
 To use both Taichi Lang and GSplat, you need the following prerequisites:
 
@@ -28,7 +28,7 @@ To use both Taichi Lang and GSplat, you need the following prerequisites:
 
    If you are only installing Taichi Lang or GSplat, see the :ref:`simulation-compat-matrix` page.
 
-Install ROCm-Simulation 
+Install AMD Simulation 
 ======================================================================================
 
 After confirming your system meets the supported hardware and software configurations, follow these steps:
@@ -101,7 +101,7 @@ After confirming your system meets the supported hardware and software configura
                   --name rocm7 \
                   rocm/dev-ubuntu-22.04:7.0-complete
 
-3. Install each ROCm-Simulation component. The installation instructions for each component can be found as follows: 
+3. Install each AMD Simulation component. The installation instructions for each component can be found as follows: 
 
    * Taichi Lang on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/install/taichi-install.html>`__
    * GSplat on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/install/gsplat-install.html>`__

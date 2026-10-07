@@ -1,10 +1,10 @@
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="ROCm-Simulation release history">
+  <meta name="description" content="AMD Simulation release history">
   <meta name="keywords" content="documentation, release history, ROCm, AMD">
 </head>
 
-# ROCm-Simulation release history
+# AMD Simulation release history
 
 | Version | Release date |
 | ------- | ------------ |

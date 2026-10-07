@@ -1,18 +1,18 @@
 .. meta::
-   :description: ROCm Simulation Domain (ROCm-Simulation) license
+   :description: ROCm Simulation Domain (AMD Simulation) license
    :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
 
 **************************************************************************************
-ROCm-Simulation license
+AMD Simulation license
 **************************************************************************************
 
 .. include:: ../../LICENSE
   :literal:
 
-ROCm-Simulation component licenses
+AMD Simulation component licenses
 --------------------------------------------------------------------------------------
 
-ROCm-Simulation includes multiple components, each governed by its own license.
+AMD Simulation includes multiple components, each governed by its own license.
 Links to the license terms for each component can be seen below. Some components
 may be third-party and subject to additional licenses. For complete details, review
 the licenses in the individual repositories.
@@ -22,16 +22,16 @@ the licenses in the individual repositories.
 
    * - Component
      - License
-   * - `Taichi Lang <https://github.com/ROCm/taichi>`__
-     - `Apache 2.0 <https://github.com/ROCm/taichi/blob/amd-integration/LICENSE>`__
-   * - `GSplat <https://github.com/ROCm/gsplat>`__
-     - `Apache 2.0 <https://github.com/ROCm/gsplat/blob/main/LICENSE>`__
+   * - `Taichi Lang <https://github.com/AMD-Ecosystem/taichi>`__
+     - `Apache 2.0 <https://github.com/AMD-Ecosystem/taichi/blob/amd-integration/LICENSE>`__
+   * - `GSplat <https://github.com/AMD-Ecosystem/gsplat>`__
+     - `Apache 2.0 <https://github.com/AMD-Ecosystem/gsplat/blob/main/LICENSE>`__
 
 .. note::
-   The following additional terms and conditions apply to your use of ROCm-Simulation documentation.
+   The following additional terms and conditions apply to your use of AMD Simulation documentation.
 
 
-    ©2025 Advanced Micro Devices, Inc. All rights reserved.
+    ©2026 Advanced Micro Devices, Inc. All rights reserved.
 
     The information presented in this document is for informational purposes only
     and may contain technical inaccuracies, omissions, and typographical errors. The

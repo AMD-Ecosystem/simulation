@@ -1,17 +1,17 @@
 .. meta::
-    :description: ROCm-Simulation compatibility matrix
+    :description: AMD Simulation compatibility matrix
     :keywords: ROCm, simulation, compatibility, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
 
 .. _simulation-compat-matrix:
 
 **************************************************************************************
-ROCm-Simulation compatibility matrix
+AMD Simulation compatibility matrix
 **************************************************************************************
 
-Use this matrix to view the ROCm-Simulation compatibility and system requirements across releases:
+Use this matrix to view the AMD Simulation compatibility and system requirements across releases:
 
 +---------------------------+---------------------------+-------------------------+-------------------------+-----------------------------------------------+----------------------------------------------+
-| ROCm-Simulation version   | Ubuntu                    | ROCm version            | Python version          | AMD Instinct GPU                              | Component                                    |
+| AMD Simulation version    | Ubuntu                    | ROCm version            | Python version          | AMD Instinct GPU                              | Component                                    |
 +===========================+===========================+=========================+=========================+===============================================+==============================================+
 | 25.11                     | 24.04                     | 7.0.0                   | 3.12.3                  | MI355X,                                       | `Taichi Lang v1.8.0b2                        |
 |                           |                           |                         |                         | MI325X,                                       | <https://rocm.docs.amd.com/projects/         |
