@@ -1,5 +1,5 @@
 .. meta::
-  :description: Learn about the features and capabilities of ROCm-Simulation
+  :description: Learn about the features and capabilities of AMD Simulation
   :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
 
 .. rocmds-index:

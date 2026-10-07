@@ -28,7 +28,7 @@ This release introduces the following AMD enabled components:
 ## System requirements
 
 ```{note}
-For the 25.10 release, the AMD Simulation components must be installed separately and have unique hardware requirements. See [installation instructions](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.10/install/install.html) to proceed for each component. See support and versioning information in the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.10/about/compatibility-matrix.html). 
+For the 25.10 release, the AMD Simulation components must be installed separately and have unique hardware requirements. See [installation instructions](https://rocm.docs.amd.com/projects/simulation/en/docs-25.10/install/install.html) to proceed for each component. See support and versioning information in the [compatibility matrix](https://rocm.docs.amd.com/projects/simulation/en/docs-25.10/about/compatibility-matrix.html). 
 ```
 
 ## AMD Simulation components

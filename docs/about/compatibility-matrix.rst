@@ -8,7 +8,7 @@
 AMD Simulation compatibility matrix
 **************************************************************************************
 
-Use this matrix to view the ROCm-Simulation compatibility and system requirements across releases:
+Use this matrix to view the AMD Simulation compatibility and system requirements across releases:
 
 +---------------------------+---------------------------+-------------------------+-------------------------+-----------------------------------------------+----------------------------------------------+
 | AMD Simulation version    | Ubuntu                    | ROCm version            | Python version          | AMD Instinct GPU                              | Component                                    |
