@@ -28,7 +28,7 @@ This release introduces support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/
 ## System requirements
 
 ```{note}
-For the 25.11 release, the AMD Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.11/install/install.html) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.11/about/compatibility-matrix.html). 
+For the 25.11 release, the AMD Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](https://rocm.docs.amd.com/projects/simulation/en/docs-25.11/install/install.html) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](https://rocm.docs.amd.com/projects/simulation/en/docs-25.11/about/compatibility-matrix.html). 
 ```
 
 ## AMD Simulation components
