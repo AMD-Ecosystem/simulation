@@ -1,11 +1,11 @@
 .. meta::
-    :description: ROCm-Simulation installation
+    :description: AMD Simulation installation
     :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
 
 .. _linux-install:
 
 **************************************************************************************
-Install ROCm-Simulation
+Install AMD Simulation
 **************************************************************************************
 
 This topic provides brief guidance and recommendations on setting up a ROCm-enabled 
@@ -13,7 +13,7 @@ environment for simulation components.
 
 .. note::
 
-   For the 25.10 release, the ROCm-Simulation components must be installed separately
+   For the 25.10 release, the AMD Simulation components must be installed separately
    and have unique hardware requirements. Ensure you have the system requirements 
    listed below to proceed.
 
@@ -36,10 +36,10 @@ To use GSplat (Gaussian splatting), you need the following prerequisites:
 - **Python:** `3.12.0 <https://www.python.org/downloads/release/python-3120/>`__
 
 
-Install ROCm-Simulation components
+Install AMD Simulation components
 ======================================================================================
 
-Each ROCm-Simulation 25.10 component must be separately installed as needed. The installation
+Each AMD Simulation 25.10 component must be separately installed as needed. The installation
 instructions for each component can be found as follows: 
 
 * Taichi Lang on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/taichi/en/docs-25.10/install/taichi-install.html>`__

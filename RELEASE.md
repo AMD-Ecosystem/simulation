@@ -10,17 +10,17 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-Simulation 25.10 Release notes
+# AMD Simulation 25.10 Release notes
 
-This is the initial release of the AMD ROCm Simulation Domain toolkit (ROCm-Simulation), a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. This release introduces two components; Taichi Lang and GSplat.
+This is the initial release of the AMD ROCm Simulation Domain toolkit (AMD Simulation), a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. This release introduces two components; Taichi Lang and GSplat.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
-- [ROCm-Simulation components](#rocm-simulation-components)
+- [AMD Simulation components](#amd-simulation-components)
 
 ## Release highlights
 
-This release introduces the following ROCm-enabled components:
+This release introduces the following AMD enabled components:
 
 * [Taichi Lang](https://www.taichi-lang.org/) is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks (such as LLVM) to offload the compute-intensive Python code to the native GPU or CPU instructions.
 * [GSplat (Gaussian splatting)](https://dl.acm.org/doi/10.1145/3592433) is a highly efficient technique for real-time rendering of 3D scenes trained from a collection of multiview 2D images of the scene. It has emerged as an alternative to neural radiance fields (NeRFs), offering significant advantages in rendering speed while maintaining visual quality.
@@ -28,12 +28,12 @@ This release introduces the following ROCm-enabled components:
 ## System requirements
 
 ```{note}
-For the 25.10 release, the ROCm-Simulation components must be installed separately and have unique hardware requirements. See [installation instructions](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.10/install/install.html) to proceed for each component. See support and versioning information in the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.10/about/compatibility-matrix.html). 
+For the 25.10 release, the AMD Simulation components must be installed separately and have unique hardware requirements. See [installation instructions](https://rocm.docs.amd.com/projects/simulation/en/docs-25.10/install/install.html) to proceed for each component. See support and versioning information in the [compatibility matrix](https://rocm.docs.amd.com/projects/simulation/en/docs-25.10/about/compatibility-matrix.html). 
 ```
 
-## ROCm-Simulation components
+## AMD Simulation components
 
-The following table lists the ROCm-Simulation component version for the 25.10 release. 
+The following table lists the AMD Simulation component version for the 25.10 release. 
 Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -53,12 +53,12 @@ Click {fab}`github` to go to the component's source code on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/taichi/en/docs-25.10/">Taichi Lang</a></td>
                 <td>1.8.0b1</td>
-                <td><a href="https://github.com/ROCm/taichi/tree/amd-release/v1.8.0b1"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/taichi/tree/amd-release/v1.8.0b1"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/gsplat/en/docs-25.10/">GSplat</a></td>
                 <td>1.5.3b1</td>
-                <td><a href="https://github.com/ROCm/gsplat/tree/release/1.5.3b1"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/gsplat/tree/release/1.5.3b1"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
