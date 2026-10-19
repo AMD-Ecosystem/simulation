@@ -29,7 +29,7 @@ all_article_info_author = ""
 html_theme = "rocm_docs_theme"
 html_theme_options = {
     "flavor": "rocm-simulation",
-    "repository_url": "ttps://github.com/AMD-Ecosystem/simulation",
+    "repository_url": "https://github.com/AMD-Ecosystem/simulation",
     "repository_branch": "docs/25.11",
     "path_to_docs": "docs",
     "use_repository_button": True,
