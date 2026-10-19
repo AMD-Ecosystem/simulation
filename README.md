@@ -18,6 +18,10 @@ Genesis is a simulation platform for physical AI. It combines a unified multi-ph
 
 Warp is a single library hosted at [AMD-Ecosystem/warp](https://github.com/AMD-Ecosystem/warp). It takes regular Python functions and JIT-compiles them to efficient kernel code for physics simulation, perception, robotics, and geometry processing, and runs MuJoCo Warp workloads on AMD Instinct GPUs. This release tracks upstream Warp 1.13.0.
 
+## MJWarp
+
+MJWarp (MuJoCo Warp) is a GPU-accelerated version of the MuJoCo physics simulator hosted at [AMD-Ecosystem/mujoco_warp](https://github.com/AMD-Ecosystem/mujoco_warp). It is written in Warp and simulates many independent worlds in parallel on AMD Instinct GPUs for reinforcement learning, motion planning, and large-scale evaluation. This release tracks upstream MJWarp 3.8.1 on the `release/v3.8.1` branch.
+
 ## Taichi
 
 Taichi is an open-source, imperative, and parallel programming language embedded in Python, designed for high-performance numerical computation and real-time physical simulation. It uses just-in-time compilation frameworks such as LLVM to accelerate compute-intensive Python code by compiling it into optimized GPU or CPU instructions. This approach allows developers to write concise, high-level algorithms while leaving performance optimization to Taichi’s compiler.
@@ -34,5 +38,6 @@ Refer to the individual component pages for documentation on system requirements
 - [Quadrants](https://rocm.docs.amd.com/projects/quadrants/en/latest/)
 - [Genesis](https://rocm.docs.amd.com/projects/genesis/en/latest/)
 - [Warp](https://rocm.docs.amd.com/projects/warp/en/latest/)
+- [MJWarp](https://rocm.docs.amd.com/projects/mujoco-warp/en/latest/)
 - [GSplat](https://rocm.docs.amd.com/projects/gsplat/en/latest/)
 - [Taichi](https://rocm.docs.amd.com/projects/taichi/en/latest/)

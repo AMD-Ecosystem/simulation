@@ -46,5 +46,6 @@ research and production pipelines with minimal friction.
     * `Quadrants <https://rocm.docs.amd.com/projects/quadrants/en/docs-26.10/>`__
     * `Genesis <https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/>`__
     * `Warp <https://rocm.docs.amd.com/projects/warp/en/docs-26.10/>`__
+    * `MJWarp <https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/>`__
 
 

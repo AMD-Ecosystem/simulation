@@ -21,6 +21,8 @@ subtrees:
     title: Genesis
   - url: https://rocm.docs.amd.com/projects/warp/en/docs-26.10/
     title: Warp
+  - url: https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/
+    title: MJWarp
 
 - caption: About
   entries:
