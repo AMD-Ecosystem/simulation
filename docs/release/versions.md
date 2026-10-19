@@ -8,6 +8,6 @@
 
 | Version | Release date |
 | ------- | ------------ |
-| [26.10](https://rocm.docs.amd.com/projects/simulation/en/docs-26.10/) | |
+| [26.10](https://rocm.docs.amd.com/projects/simulation/en/docs-26.10/) | October 30, 2026 |
 | [25.11](https://rocm.docs.amd.com/projects/simulation/en/docs-25.11/) | December 9, 2025 |
 | [25.10](https://rocm.docs.amd.com/projects/simulation/en/docs-25.10/) | December 5, 2025 |
