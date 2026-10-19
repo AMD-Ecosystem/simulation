@@ -1,6 +1,6 @@
 .. meta::
    :description: ROCm Simulation Domain (AMD Simulation) license
-   :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
+   :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Quadrants, Genesis, Warp, MJWarp, MuJoCo, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
 
 **************************************************************************************
 AMD Simulation license
@@ -22,6 +22,12 @@ the licenses in the individual repositories.
 
    * - Component
      - License
+   * - `Quadrants <https://github.com/AMD-Ecosystem/quadrants>`__
+     - `Apache 2.0 <https://github.com/AMD-Ecosystem/quadrants/blob/main/LICENSE>`__
+   * - `Genesis <https://github.com/AMD-Ecosystem/Genesis>`__
+     - `Apache 2.0 <https://github.com/AMD-Ecosystem/Genesis/blob/main/LICENSE>`__
+   * - `Warp <https://github.com/AMD-Ecosystem/warp>`__
+     - `Apache 2.0 <https://github.com/AMD-Ecosystem/warp/blob/amd-integration/LICENSE.md>`__
    * - `Taichi Lang <https://github.com/AMD-Ecosystem/taichi>`__
      - `Apache 2.0 <https://github.com/AMD-Ecosystem/taichi/blob/amd-integration/LICENSE>`__
    * - `GSplat <https://github.com/AMD-Ecosystem/gsplat>`__
