@@ -14,18 +14,15 @@ subtrees:
   - file: install/install.rst
 
 - caption: Components
-  entries: 
-  - url: https://rocm.docs.amd.com/projects/taichi/en/${branch}/
-    title: Taichi Lang
-  - url: https://rocm.docs.amd.com/projects/gsplat/en/${branch}/
-    title: GSplat
-
-- caption: Resources
   entries:
-  - url: https://rocm.blogs.amd.com/artificial-intelligence/taichi_mi300x/README.html
-    title: ROCm Taichi Lang blog
-  - url: https://rocm.blogs.amd.com/software-tools-optimization/gsplat/README.html
-    title: ROCm GSplat blog
+  - url: https://rocm.docs.amd.com/projects/quadrants/en/docs-26.10/
+    title: Quadrants
+  - url: https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/
+    title: Genesis
+  - url: https://rocm.docs.amd.com/projects/warp/en/docs-26.10/
+    title: Warp
+  - url: https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/
+    title: MJWarp
 
 - caption: About
   entries:
