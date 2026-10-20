@@ -31,7 +31,7 @@ individually rather than through a unified installation process.
 
 The installation instructions for each component can be found as follows:
 
-* `Install Quadrants on ROCm <https://rocm.docs.amd.com/projects/quadrants/en/docs-26.10/install/quadrants-install.html>`__
-* `Install Genesis on ROCm <https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/install/genesis-install.html>`__
-* `Install Warp on ROCm <https://rocm.docs.amd.com/projects/warp/en/docs-26.10/install/warp-install.html>`__
-* `Install MJWarp on ROCm <https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/install/mujoco-warp-install.html>`__
+* `Quadrants on ROCm <https://rocm.docs.amd.com/projects/quadrants/en/docs-26.10/install/quadrants-install.html>`__
+* `Genesis on ROCm <https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/install/genesis-install.html>`__
+* `Warp on ROCm <https://rocm.docs.amd.com/projects/warp/en/docs-26.10/install/warp-install.html>`__
+* `MJWarp on ROCm <https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/install/mujoco-warp-install.html>`__
