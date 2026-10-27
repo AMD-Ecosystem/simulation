@@ -90,7 +90,7 @@ Click {fab}`github` to go to the component's source code on GitHub.
 
 ### Quadrants 1.3.3
 
-This release adds Quadrants 1.3.3 to AMD Simulation, with support for ROCm 10.1.0 on AMD Instinct MI300X, MI325X, MI350X, and MI355X GPUs. The release image uses Python 3.12 and PyTorch 2.13.0 on Ubuntu 24.04.
+This release adds Quadrants 1.3.3 to AMD Simulation, with support for ROCm 10.1.0 on AMD Instinct MI300X, MI350X, and MI355X GPUs. The release image uses Python 3.12 and PyTorch 2.13.0 on Ubuntu 24.04.
 
 Latest features:
 
@@ -99,7 +99,7 @@ Latest features:
 
 ### Genesis 1.4.3
 
-This release adds Genesis 1.4.3 to AMD Simulation, with support for ROCm 10.1.0 on AMD Instinct MI300X, MI325X, and MI355X GPUs. The release uses PyTorch 2.13 and Python 3.12 on Ubuntu 24.04, and builds on the Quadrants `rocm10.1.0_r26.10` wheel.
+This release adds Genesis 1.4.3 to AMD Simulation, with support for ROCm 10.1.0 on AMD Instinct MI300X, MI350X, and MI355X GPUs. The release uses PyTorch 2.13 and Python 3.12 on Ubuntu 24.04, and builds on the Quadrants `rocm10.1.0_r26.10` wheel.
 
 Latest features:
 
