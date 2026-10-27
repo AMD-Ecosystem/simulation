@@ -28,7 +28,7 @@ the licenses in the individual repositories.
      - `Apache 2.0 <https://github.com/AMD-Ecosystem/Genesis/blob/main/LICENSE>`__
    * - `Warp <https://github.com/AMD-Ecosystem/warp>`__
      - `Apache 2.0 <https://github.com/AMD-Ecosystem/warp/blob/amd-integration/LICENSE.md>`__
-   * - `MJWarp <https://github.com/AMD-Ecosystem/mujoco_warp>`__
+   * - `MuJoCo Warp <https://github.com/AMD-Ecosystem/mujoco_warp>`__
      - `Apache 2.0 <https://github.com/AMD-Ecosystem/mujoco_warp/blob/amd-integration/LICENSE>`__
    * - `Taichi Lang <https://github.com/AMD-Ecosystem/taichi>`__
      - `Apache 2.0 <https://github.com/AMD-Ecosystem/taichi/blob/amd-integration/LICENSE>`__

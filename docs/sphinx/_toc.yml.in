@@ -22,7 +22,7 @@ subtrees:
   - url: https://rocm.docs.amd.com/projects/warp/en/docs-26.10/
     title: Warp
   - url: https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/
-    title: MJWarp
+    title: MuJoCo Warp
 
 - caption: About
   entries:
