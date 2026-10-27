@@ -15,9 +15,15 @@ a svg:hover {
   color: var(--pst-color-link-hover);
 }
 
-/* Adds container for big tables, used for Compatibility Matrix */
+/* Keep the compatibility matrix inside the content column. */
 .format-big-table {
-    white-space: nowrap;
+    white-space: normal;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.format-big-table td {
+    overflow-wrap: anywhere;
 }
 
 /* Collapse borders on the table element itself */
