@@ -10,9 +10,9 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# AMD Simulation 25.11 Release notes
+# AMD Simulation 26.10 Release notes
 
-This is the second release of the AMD Simulation toolkit, a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. 
+This is the third release of the AMD Simulation toolkit, a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
@@ -20,20 +20,22 @@ This is the second release of the AMD Simulation toolkit, a comprehensive open-s
 
 ## Release highlights
 
-This release introduces support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/)** for the two components:
+This release introduces four components:
 
-* [Taichi Lang](https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/) is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks (such as LLVM) to offload the compute-intensive Python code to the native GPU or CPU instructions.
-* [GSplat (Gaussian splatting)](https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/) is a highly efficient technique for real-time rendering of 3D scenes trained from a collection of multiview 2D images of the scene. It has emerged as an alternative to neural radiance fields (NeRFs), offering significant advantages in rendering speed while maintaining visual quality.
+* [Quadrants](https://rocm.docs.amd.com/projects/quadrants/en/docs-26.10/) 1.3.3 is a multi-platform compiler for physics simulation. Kernels written in Python are lowered to parallel code for AMD ROCm (HIP). Genesis uses Quadrants for the numeric kernels inside its solvers, collision code, and linear algebra. This release adds support for [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
+* [Genesis](https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/) 1.4.3 is a simulation platform for physical AI. A Python scene API drives rigid robots, deformable materials, fluids, and coupled solvers, with Quadrants compiling the numeric kernels. This release adds support for [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
+* [Warp](https://rocm.docs.amd.com/projects/warp/en/docs-26.10/) 1.13.0 is a single library hosted at [AMD-Ecosystem/warp](https://github.com/AMD-Ecosystem/warp). It JIT-compiles regular Python functions for physics simulation, perception, robotics, and geometry processing, including MuJoCo Warp workloads. MI325X uses [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/). MI350X and MI355X use [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
+* [MuJoCo Warp](https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/) 3.8.1 is a GPU-accelerated MuJoCo physics simulator hosted at [AMD-Ecosystem/mujoco_warp](https://github.com/AMD-Ecosystem/mujoco_warp). It is written in Warp and steps thousands of parallel, contact-rich worlds for robotics and reinforcement learning. MI325X uses [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/). MI350X and MI355X use [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
 
 ## System requirements
 
 ```{note}
-For the 25.11 release, the AMD Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](https://rocm.docs.amd.com/projects/simulation/en/docs-25.11/install/install.html) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](https://rocm.docs.amd.com/projects/simulation/en/docs-25.11/about/compatibility-matrix.html). 
+AMD Simulation components span a range of ROCm versions. Follow the installation instructions for each component, or use the [compatibility matrix](https://rocm.docs.amd.com/projects/simulation/en/docs-26.10/about/compatibility-matrix.html) to verify supported ROCm versions, GPUs, and Python versions.
 ```
 
 ## AMD Simulation components
 
-The following table lists AMD Simulation components versions for AMD Simulation 25.11, including any version changes for the components. 
+The following table lists AMD Simulation component versions for AMD Simulation 26.10.
 Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -51,13 +53,33 @@ Click {fab}`github` to go to the component's source code on GitHub.
         </colgroup>
         <tbody class="rocm-sim-components">
             <tr>
+                <td><a href="https://rocm.docs.amd.com/projects/quadrants/en/docs-26.10/">Quadrants</a></td>
+                <td><a href="#quadrants-1-3-3">1.3.3</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/quadrants/tree/rocm10.1.0_r26.10"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/">Genesis</a></td>
+                <td><a href="#genesis-1-4-3">1.4.3</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/Genesis/tree/rocm10.1.0_r26.10"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://rocm.docs.amd.com/projects/warp/en/docs-26.10/">Warp</a></td>
+                <td><a href="#warp-1-13-0">1.13.0</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/warp/tree/release/v1.13.0"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/">MuJoCo Warp</a></td>
+                <td><a href="#mjwarp-3-8-1">3.8.1</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/mujoco_warp/tree/release/v3.8.1"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/">Taichi Lang</a></td>
-                <td>1.8.0b1&nbsp;&Rightarrow;&nbsp;<a href="#taichi-lang-1-8-0b2">1.8.0b2</a></td>
+                <td>1.8.0b2</td>
                 <td><a href="https://github.com/AMD-Ecosystem/taichi/tree/release/1.8.0b2"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/">GSplat</a></td>
-                <td>1.5.3b1&nbsp;&Rightarrow;&nbsp;<a href="#gsplat-1-5-3b2">1.5.3b2</a></td>
+                <td>1.5.3b2</td>
                 <td><a href="https://github.com/AMD-Ecosystem/gsplat/tree/release/1.5.3b2"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
@@ -66,19 +88,40 @@ Click {fab}`github` to go to the component's source code on GitHub.
 
 ## Detailed component changelogs
 
-### Taichi Lang 1.8.0b2
+### Quadrants 1.3.3
 
-This release adds support for ROCm 7.0.0.
-
-Latest features:
-
-- Added support for AMD Instinct MI355X, MI325X, and MI300X GPUs.
-
-### GSplat 1.5.3b2
-
-This release adds support for ROCm 7.0.0.
+This release adds Quadrants 1.3.3 to AMD Simulation, with support for ROCm 10.1.0 on AMD Instinct MI300X, MI350X, and MI355X GPUs. The release image uses Python 3.12 and PyTorch 2.13.0 on Ubuntu 24.04.
 
 Latest features:
 
-- Added support for AMD Instinct MI325X GPUs.
-- ``Fused SSIM`` is enabled: ``Fused SSIM`` refers to an optimized implementation of the Structural Similarity Index Measure (SSIM) that combines multiple operations into a single, more efficient kernel. Benchmarks show a resultant significant improvement in training time.
+- Python kernels lower to the AMDGPU backend on ROCm 10.1.0.
+- PyTorch interop uses DLPack on the AMDGPU backend.
+
+### Genesis 1.4.3
+
+This release adds Genesis 1.4.3 to AMD Simulation, with support for ROCm 10.1.0 on AMD Instinct MI300X, MI350X, and MI355X GPUs. The release uses PyTorch 2.13 and Python 3.12 on Ubuntu 24.04, and builds on the Quadrants `rocm10.1.0_r26.10` wheel.
+
+Latest features:
+
+- A Python scene API steps rigid robots, deformable materials, fluids, and coupled solvers.
+- Numeric kernels are compiled with Quadrants.
+
+### Warp 1.13.0
+
+This release adds Warp 1.13.0, including MuJoCo Warp workloads, on Ubuntu 24.04 and Python 3.12.
+
+Latest features:
+
+- AMD Instinct MI325X with ROCm 7.2.0 and PyTorch 2.9.1.
+- AMD Instinct MI350X and MI355X with ROCm 10.1.0 and PyTorch 2.14.0.
+- Warp kernels run on AMD Instinct GPUs through the HIP backend.
+
+### MuJoCo Warp 3.8.1
+
+This release adds MuJoCo Warp 3.8.1 on Ubuntu 24.04 and Python 3.12.
+
+Latest features:
+
+- AMD Instinct MI325X with ROCm 7.2.0 and PyTorch 2.9.1.
+- AMD Instinct MI350X and MI355X with ROCm 10.1.0 and PyTorch 2.14.0.
+- Batched MuJoCo worlds run on AMD Instinct GPUs through the ROCm port of Warp.
