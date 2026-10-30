@@ -22,10 +22,14 @@ This is the third release of the AMD Simulation toolkit, a comprehensive open-so
 
 This release introduces four components:
 
-* [Quadrants](https://rocm.docs.amd.com/projects/quadrants/en/docs-26.10/) 1.3.3 is a multi-platform compiler for physics simulation. Kernels written in Python are lowered to parallel code for AMD ROCm (HIP). Genesis uses Quadrants for the numeric kernels inside its solvers, collision code, and linear algebra. This release adds support for [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
-* [Genesis](https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/) 1.4.3 is a simulation platform for physical AI. A Python scene API drives rigid robots, deformable materials, fluids, and coupled solvers, with Quadrants compiling the numeric kernels. This release adds support for [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
+* [Quadrants](https://rocm.docs.amd.com/projects/quadrants/en/docs-26.10/) 1.3.3 is a multi-platform compiler for physics simulation. Kernels written in Python are lowered to parallel code for AMD ROCm (HIP). Genesis uses Quadrants for the numeric kernels inside its solvers, collision code, and linear algebra. Quadrants releases with support for [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
+* [Genesis](https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/) 1.4.3 is a simulation platform for physical AI. A Python scene API drives rigid robots, deformable materials, fluids, and coupled solvers, with Quadrants compiling the numeric kernels. Genesis releases with support for [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
 * [Warp](https://rocm.docs.amd.com/projects/warp/en/docs-26.10/) 1.13.0 is a single library hosted at [AMD-Ecosystem/warp](https://github.com/AMD-Ecosystem/warp). It JIT-compiles regular Python functions for physics simulation, perception, robotics, and geometry processing, including MuJoCo Warp workloads. MI325X uses [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/). MI350X and MI355X use [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
 * [MuJoCo Warp](https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/) 3.8.1 is a GPU-accelerated MuJoCo physics simulator hosted at [AMD-Ecosystem/mujoco_warp](https://github.com/AMD-Ecosystem/mujoco_warp). It is written in Warp and steps thousands of parallel, contact-rich worlds for robotics and reinforcement learning. MI325X uses [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/). MI350X and MI355X use [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
+
+```{note}
+GSplat is still part of the AMD Simulation toolkit. It was not updated in this release.
+```
 
 ## System requirements
 
@@ -69,7 +73,7 @@ Click {fab}`github` to go to the component's source code on GitHub.
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/">MuJoCo Warp</a></td>
-                <td><a href="#mjwarp-3-8-1">3.8.1</a></td>
+                <td><a href="#mujoco-warp-3-8-1">3.8.1</a></td>
                 <td><a href="https://github.com/AMD-Ecosystem/mujoco_warp/tree/release/v3.8.1"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>

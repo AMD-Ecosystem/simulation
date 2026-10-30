@@ -47,5 +47,6 @@ research and production pipelines with minimal friction.
     * `Genesis <https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/>`__
     * `Warp <https://rocm.docs.amd.com/projects/warp/en/docs-26.10/>`__
     * `MuJoCo Warp <https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/>`__
+    * `GSplat <https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/>`__
 
 

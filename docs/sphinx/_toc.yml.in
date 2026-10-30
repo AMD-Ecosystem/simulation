@@ -23,6 +23,8 @@ subtrees:
     title: Warp
   - url: https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/
     title: MuJoCo Warp
+  - url: https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/
+    title: GSplat
 
 - caption: About
   entries:
