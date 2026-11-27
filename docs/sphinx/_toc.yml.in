@@ -26,6 +26,11 @@ subtrees:
   - url: https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/
     title: GSplat
 
+- caption: Resources
+  entries:
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/rocm-genesis-quadrants/README.html
+    title: ROCm Quadrants and Genesis blog
+
 - caption: About
   entries:
   - file: about/license.rst

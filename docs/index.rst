@@ -49,4 +49,6 @@ research and production pipelines with minimal friction.
     * `MuJoCo Warp <https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/>`__
     * `GSplat <https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/>`__
 
+  .. grid-item-card:: Resources
 
+    * `Quadrants and Genesis on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/rocm-genesis-quadrants/README.html>`__
