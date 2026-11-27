@@ -144,6 +144,7 @@ GPUs
 GRBM
 GenAI
 GenZ
+Genesis
 GitHub
 Gitpod
 HBM
@@ -222,6 +223,7 @@ MIOpen
 MIOpenGEMM
 MIOpen's
 MIVisionX
+MJWarp
 MLM
 MMA
 MMIO
@@ -244,6 +246,7 @@ Meta's
 Miniconda
 MirroredStrategy
 Mixtral
+MuJoCo
 Multicore
 Multithreaded
 MyEnvironment
@@ -318,6 +321,7 @@ PyPi
 Pytest
 PyTorch
 Qcycles
+Quadrants
 Qwen
 RAII
 RAS
